@@ -1,0 +1,4 @@
+run = "set -e; csc Main.cs; mono Main.exe"
+
+[nix]
+channel = "stable-22_11"
